@@ -2,7 +2,7 @@
 import './App.css';
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Solarsytem } from './components/Solarsytem';
+import { Solarsytem } from './components/SolorSystem/Solarsytem';
 
 function App() {
   return (
