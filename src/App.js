@@ -1,11 +1,20 @@
 
 import './App.css';
 
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Solarsytem } from './components/Solarsytem';
+
 function App() {
   return (
-    <div className="App">
-
-    </div>
+       <Router>
+      <div className="App">
+ 
+        <Switch>
+          <Route exact path="/" component={Solarsytem} />
+     
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
